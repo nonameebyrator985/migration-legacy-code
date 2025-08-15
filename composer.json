@@ -1,0 +1,14 @@
+{
+  "name": "votre-nom-utilisateur/migration-legacy-code",
+  "description": "Outil de migration et de refactorisation pour le code hérité d'applications web utilisant PHP vers un framework moderne.",
+  "type": "project",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "MigrationLegacyCode\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
